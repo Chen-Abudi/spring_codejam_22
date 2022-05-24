@@ -55,5 +55,35 @@
       class="intro__picture">
     </section>
 
+    <section class="projects">
+      <h2 class="projects__title">Portfolio</h2>
+      <p class="projects__subtitle">Here you can find some of my favourite projects. Enjoy!</p>
+
+      <ul class="projects__cards">
+        <template id="card">
+          <li class="card">
+            <h3 class="card__title"></h3>
+            <p class="card__hidden-text">Click here to know more</p>
+          </li>
+        </template>
+      </ul>
+
+      <div class="card-modal">
+        <div class="card-modal__box">
+          <h3 class="card-modal__title"></h3>
+          <p class="card-modal__description"></p>
+          <div class="card-modal__links">
+            <a href="#" class="card-modal__link">
+              <img src="images/project-icon.svg" alt="" class="card-modal__link-icon">
+            </a>
+            <a href="#" class="card-modal__link">
+              <img src="images/git-icon.svg" alt="" class="card-modal__link-icon">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script type="module" src="scripts/index.js"></script>
   </body>
 </html>

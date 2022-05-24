@@ -1,0 +1,61 @@
+.card-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.7s, opacity 0.7s;
+}
+
+.card-modal_opened {
+  transition: visibility 0.7s, opacity 0.7s;
+  visibility: visible;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.card-modal__box {
+  max-width: 430px;
+  width: 100%;
+  min-height: 330px;
+  position: relative;
+  cursor: default;
+  background-color: #fff;
+  padding: 50px 50px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-modal__title {
+  margin: 0;
+  font-size: 54px;
+  font-family: 'Iceland', sans-serif;
+}
+
+.card-modal__description {
+  margin: 0;
+  padding: 40px 0;
+  font-size: 24px;
+  font-family: 'Inter', sans-serif;
+}
+
+.card-modal__links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-modal__link-icon {
+  min-width: 40px;
+}
+
+.card-modal__link-icon:hover {
+  opacity: 0.7;
+  transform: scale(1.3);
+}

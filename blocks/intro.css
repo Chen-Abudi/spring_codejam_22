@@ -11,7 +11,14 @@
 
 .intro__title {
   margin: 0;
-  font-size: 52px;
+  font-size: 72px;
+  text-shadow: #0882ff 5px 5px 5px;
+  transition: all 0.5s;
+}
+
+.intro__title:hover {
+  transform: scale(1.2);
+  text-shadow: #55f676 10px 10px 10px;
 }
 
 .intro__subtitle {
@@ -20,5 +27,5 @@
 }
 
 .intro__picture {
-  max-width: 50%;
+  max-width: 60%;
 }
