@@ -1,0 +1,30 @@
+.nav {
+  margin: 0;
+  align-self: center;
+  font-family: "Iceland", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav__links {
+  list-style-type: none;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  column-gap: 80px;
+  color: #000;
+  padding: 0;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 10px;
+  transition: all 0.4s linear;
+}
+
+.nav__link:hover {
+  text-shadow: 0 0 2px #000, 4px 4px 0 #0882ff;
+}
