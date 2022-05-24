@@ -1,0 +1,28 @@
+.projects {
+  padding: 100px 50px;
+  background-color: #0882ff;
+  position: relative;
+}
+
+.projects__title {
+  margin: 0;
+  font-family: 'Iceland', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+}
+
+.projects__picture {
+  max-width: 40%;
+  position: absolute;
+  top: -35%;
+  right: 0;
+}
+
+.projects__cards {
+  list-style: none;
+  margin: 50px 0 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}

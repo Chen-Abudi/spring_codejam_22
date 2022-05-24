@@ -1,0 +1,35 @@
+.card {
+  padding: 40px 20px;
+  background-color: #fff;
+  max-width: 25%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  row-gap: 35px;
+}
+
+.card__title {
+  font-family: 'Iceland', sans-serif;
+  font-size: 32px;
+  text-align: center;
+  margin: 0;
+}
+
+.card__text {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.card__link {
+  transition: opacity 0.5s;
+}
+
+.card__link:hover{
+  opacity: 0.5;
+}
+
+.card__link-icon {
+  max-width: 50px;
+}
