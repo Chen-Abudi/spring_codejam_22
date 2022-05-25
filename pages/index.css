@@ -11,6 +11,9 @@
 @import url("../blocks/intro.css");
 @import url("../blocks/about.css");
 
+@import url("../blocks/gallery.css");
+@import url("../blocks/swiper.css");
+
 @import url("../blocks/projects.css");
 @import url("../blocks/card.css");
 @import url("../blocks/card-modal.css");

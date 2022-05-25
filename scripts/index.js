@@ -1,6 +1,7 @@
 import { initialCards } from "./constants.js";
 import { Card } from "./Card.js";
 import { closeModalByMouseClick } from "./modal.js";
+import { swiper } from "./swiper.js";
 
 const cardModal = document.querySelector(".card-modal");
 closeModalByMouseClick(cardModal);

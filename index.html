@@ -19,8 +19,10 @@
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
 
     <title>Andrew Yin</title>
   </head>
@@ -94,7 +96,65 @@
         </article>
       </section>
 
-      <section class="projects">
+      <section class="gallery">
+        <h2 class="gallery__title" id="gallery">
+          <span class="gallery__title-span">G</span>
+          <span class="gallery__title-span">a</span>
+          <span class="gallery__title-span">l</span>
+          <span class="gallery__title-span">l</span>
+          <span class="gallery__title-span">e</span>
+          <span class="gallery__title-span">r</span>
+          <span class="gallery__title-span">y</span>
+        </h2>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+
+            <div class="swiper-slide">
+              <img
+                class="gallery__image"
+                src="images/gallery/03._Introductionflexbox.png"
+                alt="#"
+              />
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                class="gallery__image"
+                src="images/gallery/andy-draw.png"
+                alt="#"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="gallery__image"
+                src="images/gallery/andy-multitask.png"
+                alt="#"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="gallery__image"
+                src="images/gallery/andy_skates.png"
+                alt="#"
+              />
+            </div>
+            ...
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+
+      <section class="projects" id="portfolio">
         <h2 class="projects__title">Portfolio</h2>
         <p class="projects__subtitle">
           Here you can find some of my favourite projects. Enjoy!
@@ -134,6 +194,7 @@
       </section>
     </main>
 
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script type="module" src="scripts/index.js"></script>
   </body>
 </html>
