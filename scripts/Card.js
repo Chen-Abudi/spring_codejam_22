@@ -6,6 +6,7 @@ class Card {
   constructor(card, templateSelector) {
     this._name = card.name;
     this._content = card.content;
+    this._link = card.link;
     this._templateSelector = templateSelector;
   }
 
@@ -26,6 +27,7 @@ class Card {
   _handleMouseClick() {
     cardModal.querySelector('.card-modal__title').textContent = this._name;
     cardModal.querySelector('.card-modal__description').textContent = this._content;
+    cardModal.querySelector('.card-modal__link').href = this._link;
     openModal(cardModal);
   }
 
