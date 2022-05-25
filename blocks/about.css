@@ -35,16 +35,16 @@
 }
 
 .about__description {
-  font-size: 21px;
+  font-size: 18px;
   line-height: 1.2;
   margin: 0;
-  padding: 25px;
-  text-align: justify;
+  padding: 20px;
 }
 
 .about__image {
   width: 100%;
   max-width: 560px;
+  max-height: 560px;
   object-fit: fill;
   align-self: stretch;
   margin: 0 auto;
@@ -52,6 +52,7 @@
   background-position: center;
   background-repeat: no-repeat;
   transition: transform 400ms ease-out;
+  border-radius: 30%;
 }
 
 .about__image:hover {
