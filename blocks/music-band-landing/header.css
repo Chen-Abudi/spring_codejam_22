@@ -1,0 +1,27 @@
+.header {
+  padding: 80px 150px;
+  display: grid;
+  grid-template-areas:
+      "nav title"
+      "nav image";
+  align-items: center;
+  justify-content: center;
+  background-color: #F5F5DC;
+}
+
+.header__title {
+  grid-area: title;
+  font-family: 'Iceland', sans-serif;
+  font-size: 92px;
+  margin: 0;
+  text-align: center;
+  text-shadow: 3px 3px 5px #DAA520;
+  color: #191970;
+}
+
+.header__image {
+  margin: 0 auto;
+  grid-area: image;
+  max-width: 70%;
+  padding-top: 50px;
+}
