@@ -20,11 +20,13 @@
   text-decoration: none;
   color: #000;
   font-size: 25px;
-  font-weight: bold;
+  line-height: 1;
+  font-weight: 400;
   padding: 20px 10px;
   transition: all 0.4s linear;
 }
 
 .nav__link:hover {
   text-shadow: 0 0 2px #000, 4px 4px 0 #0882ff;
+  font-weight: bold;
 }
