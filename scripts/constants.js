@@ -1,15 +1,15 @@
 const initialCards = [
   {
-    name: 'Landing page for a recording studio',
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cum, enim optio aperiam ut voluptatem ab accusantium quidem veniam debitis vitae fugiat, vel odio explicabo accusamus odit, iste et corrupti?'
+    name: 'Landing page for a music band',
+    content: ''
   },
   {
-    name: 'Landing page for a recording studio',
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cum, enim optio aperiam ut voluptatem ab accusantium quidem veniam debitis vitae fugiat, vel odio explicabo accusamus odit, iste et corrupti?Lorem ipsum dolor sit amet consectetur adipisicing elit'
+    name: 'Landing page about Tolkien',
+    content: 'I am reaaly into Tolkien`s books and I love to re-read them again and again. So one of my project is an info page about Tolkien and some of his biggest projects.'
   },
   {
-    name: 'Landing page for a recording studio',
-    content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam cum, enim optio aperiam ut voluptatem ab accusantium quidem veniam debitis vitae fugiat, vel odio explicabo accusamus odit, iste et corrupti?'
+    name: 'Landing page about ocean & sea life',
+    content: 'Are you interested in secrets of a deep sea life? Here you can find some of them. My page is about the most dangerous, the most beautiful and the most amazing ocean creatures.'
   }
 ];
 
