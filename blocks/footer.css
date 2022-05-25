@@ -1,0 +1,43 @@
+.footer {
+  padding: 50px 100px 50px 50px;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.copyright {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: gray;
+}
+
+.footer__contact-me {
+  margin: 0;
+  font-size: 32px;
+  font-family: 'Iceland', sans-serif;
+}
+
+.footer__social {
+  font-family: 'Iceland', sans-serif;
+  
+}
+
+.footer__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 28px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  transition: color 0.7s;
+}
+
+.footer__link:hover{
+  color:#55f676;
+}
+
+.footer__icon {
+  width: 50px;
+}
