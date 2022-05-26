@@ -66,3 +66,19 @@
   animation: wave 1s infinite;
   animation-delay: calc(0.1s * 7);
 }
+
+.gallery__image {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 730px) {
+  .gallery__title {
+    font-size: 48px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .gallery__title {
+    font-size: 42px;
+  }
+}

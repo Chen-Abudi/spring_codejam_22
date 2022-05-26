@@ -6,7 +6,7 @@
 
 .intro__text {
   align-self: center;
-  font-family: 'Iceland', sans-serif;
+  font-family: "Iceland", sans-serif;
 }
 
 .intro__title {
@@ -30,12 +30,32 @@
   max-width: 60%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 730px) {
+  .intro {
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
   .intro {
     flex-direction: column;
   }
 
   .intro__picture {
     margin: 0 auto;
+  }
+
+  .intro__title {
+    font-size: 42px;
+    text-align: center;
+  }
+
+  .intro__subtitle {
+    font-size: 30px;
+  }
+
+  .intro__picture {
+    max-width: 70%;
+    align-self: center;
   }
 }
