@@ -40,6 +40,7 @@ When you'll click on the Beatles card, you'll reach to the second landing page.
 - Optimize the pages speed and adding security.
 - Additional animations or Functionality.
 - Make the landing pages more dynamic and interactive by implementing custom scripts.
+- Make a better responsive layout.
 
 ### Github Repository
 
