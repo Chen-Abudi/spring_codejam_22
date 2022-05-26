@@ -29,3 +29,13 @@
 .intro__picture {
   max-width: 60%;
 }
+
+@media screen and (max-width: 900px) {
+  .intro {
+    flex-direction: column;
+  }
+
+  .intro__picture {
+    margin: 0 auto;
+  }
+}
