@@ -46,3 +46,29 @@
   margin-top: 30px;
   color: #fff;
 }
+
+@media screen and (min-width: 1041px) and (max-width: 1480px) {
+  .members__portrait-container {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width:1040px) {
+  .members__cards-list {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 30px;
+  }
+  
+  .members__portrait-container {
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .members__cards-list {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4,1fr);
+  }
+}

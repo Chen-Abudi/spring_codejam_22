@@ -1,7 +1,7 @@
 const initialCards = [
   {
-    name: 'Landing page for a music band',
-    content: '',
+    name: 'Landing page for The Beatles',
+    content: 'One of the greatest music band forever - welcome to their introductory page!',
     link: 'music-band-landing/music-band-landing.html'
   },
   {
