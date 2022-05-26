@@ -19,3 +19,5 @@ Git
 Chen-Abudi/spring_codejam_22
 
 ### Github Pages Link
+
+https://chen-abudi.github.io/spring_codejam_22/
