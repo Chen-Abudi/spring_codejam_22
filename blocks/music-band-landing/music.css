@@ -1,0 +1,21 @@
+.music {
+  background-color: #f5f5dc;
+  font-family: "Iceland", cursive;
+}
+
+.music__heading {
+  text-align: center;
+  font-size: 56px;
+  margin: 0;
+  padding-top: 60px;
+}
+
+.music__video-title {
+  font-size: 1.8em;
+}
+.music__video-gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  list-style: none;
+}
