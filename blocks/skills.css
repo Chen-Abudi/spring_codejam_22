@@ -1,0 +1,57 @@
+@keyframes shake {
+  0% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+  25% {
+    transform: translate(5px, 5px) rotate(5deg);
+  }
+  50% {
+    transform: translate(0, 0) rotate(0eg);
+  }
+  75% {
+    transform: translate(-5px, 5px) rotate(-5deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(0deg);
+  }
+}
+
+.skills {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 45px 0;
+  margin: 0;
+  width: 100%;
+  min-height: 350px;
+}
+
+.skills__title {
+  font-family: "Iceland", cursive;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.3;
+  margin: 0;
+  padding: 0 0 45px;
+}
+
+.skills__title:hover {
+  animation: shake 0.4s ease-in-out 0s infinite;
+  text-shadow: 0 0 2px #55f676, 4px 4px 0 #ff5831;
+}
+
+.skills__list {
+  margin: 0;
+  padding: 0;
+  gap: 45px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.skills__list-item {
+  margin: 0;
+  padding: 0;
+}

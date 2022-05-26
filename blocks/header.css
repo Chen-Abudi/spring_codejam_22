@@ -1,7 +1,7 @@
 @keyframes pulsate {
   0% {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1) rotate(360deg);
   }
 
   50% {
@@ -11,7 +11,7 @@
 
   100% {
     opacity: 1;
-    transform: scale(1);
+    transform: scale(1) rotate(360deg);
   }
 }
 
@@ -35,5 +35,5 @@
 
 .header__logo:hover {
   cursor: pointer;
-  animation: pulsate 1.3s ease-in-out 0s infinite;
+  animation: pulsate 1.3s ease-in-out 0s alternate;
 }
