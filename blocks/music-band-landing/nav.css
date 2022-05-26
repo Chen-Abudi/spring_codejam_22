@@ -1,0 +1,23 @@
+.nav {
+  grid-area: nav;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align-last: right;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 54px;
+  font-family: 'Iceland', sans-serif;
+  border-bottom: 1px solid #000;
+  transition: all 0.5s;
+}
+
+.nav__link:hover {
+  transform: scale(1.1);
+  color: #4169E1;
+  text-shadow: #DAA520 5px 5px 5px;
+  border-bottom: 1px solid #4169E1;
+}
