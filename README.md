@@ -14,7 +14,7 @@ This page describes Andy and highlights his interests and work. It includes a sh
 
 ### Github Repository
 
-Chen-Abudi/spring_codejam_22
+[Chen-Abudi/spring_codejam_22](https://github.com/Chen-Abudi/spring_codejam_22)
 
 ### Deployed Project
 
