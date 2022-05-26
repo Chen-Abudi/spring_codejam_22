@@ -25,3 +25,16 @@
 .card__hidden-text {
   display: none;
 }
+
+@media screen and (max-width:1040px) {
+  .card {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .card {
+    max-width: 100%;
+  }
+  
+}
