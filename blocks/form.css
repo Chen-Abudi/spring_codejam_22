@@ -1,0 +1,160 @@
+@keyframes zoom {
+  0% {
+    transform: scale(1) rotate(10deg);
+  }
+
+  50% {
+    transform: scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+.form {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form__email {
+  margin: 0 0 25px;
+  padding: 0;
+  position: relative;
+  display: flex;
+  font-family: "Inter", cursive;
+}
+
+.form__email::before {
+  content: "";
+  position: absolute;
+  top: -191px;
+  left: 0;
+  height: 205px;
+  width: 205px;
+  background-image: url("../images/andy-2.png");
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.form__email:hover::before {
+  animation: zoom 0.4s linear 0s alternate;
+}
+
+.form__email-icon {
+  margin: 0;
+  padding: 0 10px;
+  display: block;
+  background-color: #000;
+  border-radius: 5px 0 0 5px;
+}
+
+.form__email-icon::before {
+  content: "\2709";
+  position: relative;
+  top: 5px;
+  height: 100%;
+  font-size: 50px;
+  color: #fff;
+}
+
+.form__email-input {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 10px;
+  min-height: 50px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgba(229, 229, 229, 0.9);
+  border: 0;
+  border-radius: 0 5px 5px 0;
+  outline: none;
+  flex: 0.6;
+}
+
+.form__email-input:focus {
+  background-color: #fff;
+}
+
+.form__email-input:invalid {
+  border: 1px solid #141d27;
+}
+
+.form__email-input:valid {
+  border: 2px solid #0882ff;
+}
+
+.form__textarea {
+  box-sizing: border-box;
+  margin: 0 0 30px;
+  padding: 15px 15px;
+  height: 280px;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.4;
+  background-color: #e5e5e5;
+  opacity: 0.9;
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  resize: none;
+  font-family: "Inter", sans-serif;
+}
+
+.form__textarea:focus {
+  background-color: #fff;
+}
+
+.form__textarea:invalid {
+  border: 1px solid #141d27;
+}
+
+.form__textarea:valid {
+  border: 2px solid #0882ff;
+}
+
+.form__buttons {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__button {
+  margin: 0;
+  padding: 10px 30px;
+  position: relative;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: #fff;
+  border: 2px solid #0882ff;
+  border-radius: 30px;
+  transition: all 0.4s ease-in-out;
+}
+
+.form__button,
+.form__button {
+  margin-left: 30px;
+}
+
+.form__button:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.form__btn:hover,
+.form__btn:focus {
+  box-shadow: inset 150px 0 0 0 #0882ff;
+  color: #fff;
+}
