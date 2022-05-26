@@ -37,3 +37,15 @@
   cursor: pointer;
   animation: pulsate 1.3s ease-in-out 0s alternate;
 }
+
+@media screen and (min-width: 320px) and (max-width: 599px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .header {
+    flex-direction: column;
+  }
+}

@@ -8,7 +8,7 @@
 }
 
 .copyright {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   color: gray;
 }
@@ -16,12 +16,11 @@
 .footer__contact-me {
   margin: 0;
   font-size: 32px;
-  font-family: 'Iceland', sans-serif;
+  font-family: "Iceland", sans-serif;
 }
 
 .footer__social {
-  font-family: 'Iceland', sans-serif;
-  
+  font-family: "Iceland", sans-serif;
 }
 
 .footer__link {
@@ -34,10 +33,70 @@
   transition: color 0.7s;
 }
 
-.footer__link:hover{
-  color:#55f676;
+.footer__link:hover {
+  color: #55f676;
 }
 
 .footer__icon {
   width: 50px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 730px) {
+  .footer {
+    padding: 40px 80px 40px 40px;
+    flex-direction: column-reverse;
+  }
+
+  .copyright {
+    font-size: 14px;
+  }
+
+  .footer__contact-me {
+    font-size: 28px;
+    order: 1;
+  }
+
+  .footer__link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 599px) {
+  .footer {
+    padding: 30px 60px 30px 30px;
+    flex-direction: column-reverse;
+  }
+
+  .copyright {
+    font-size: 12px;
+  }
+
+  .footer__contact-me {
+    font-size: 28px;
+    order: 1;
+  }
+
+  .footer__link {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .footer {
+    padding: 20px;
+    flex-direction: column-reverse;
+  }
+
+  .copyright {
+    font-size: 10px;
+  }
+
+  .footer__contact-me {
+    font-size: 20px;
+    order: 1;
+  }
+
+  .footer__link {
+    font-size: 20px;
+  }
 }
