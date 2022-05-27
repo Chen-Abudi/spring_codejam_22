@@ -1,5 +1,5 @@
 .music {
-  background-color: #F5DEB3;
+  background-color: #f5deb3;
   font-family: "Iceland", cursive;
   padding-bottom: 40px;
 }
@@ -16,8 +16,54 @@
 }
 .music__video-gallery {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "heyJude letItBe"
+    "strawberryFields hereComestheSun";
   list-style: none;
   margin: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 0;
+}
+
+.music__video {
+  width: 500px;
+}
+.music__video_heyJude {
+  grid-area: heyJude;
+}
+
+.music__video_letItBe {
+  grid-area: letItBe;
+}
+
+.music__video_hereComestheSun {
+  grid-area: hereComestheSun;
+}
+
+.music__video_strawberryFields {
+  grid-area: strawberryFields;
+}
+
+@media screen and (max-width: 1100px) {
+  .music__video {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .music__video {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .music__video {
+    width: 300px;
+  }
+  .music__video-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
