@@ -25,7 +25,6 @@ When you'll click on the Beatles card, you'll reach to the second landing page.
 
 - HTML5
 - CSS3
-- Responsive Design
 - Javascript
 - Git
 - Flat BEM Methodology
