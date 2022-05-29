@@ -1,5 +1,5 @@
 # Spring Code Jam 2022
-This project was created by the "Codzilla" team for Spring 2022 Code Jam hosted by Practicum.
+This project was created by "Codzilla" team for Spring 2022 Code Jam hosted by Practicum.
 
 ### Overview
 
