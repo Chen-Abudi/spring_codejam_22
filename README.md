@@ -19,7 +19,7 @@ This project was created by the "Codzilla" team for Spring 2022 Code Jam hosted 
 ## Landing page for Our Character: Andrew Yin
 
 This page describes Andy and highlights his interests and work. It includes a short bio for andy, a porfolio of this project, and a contact form to reach out. One of Andy's projects is a landing page for his favorite Band, The Beatles. It features a short bio for the band, and includes some of their most pupular songs.
-When you'll click on the Beatles card, you'll reach to the second landing page.
+
 
 ### Technologies and Languages:
 
@@ -29,7 +29,7 @@ When you'll click on the Beatles card, you'll reach to the second landing page.
 - Git
 - Flat BEM Methodology
 - Swiper.js for Gallery
-- Grids, flexbox and form
+- Grids, Flexbox and Form
 - Responsive layout
 - Animation
 
@@ -39,7 +39,9 @@ When you'll click on the Beatles card, you'll reach to the second landing page.
 - Optimize the pages speed and adding security.
 - Additional animations or Functionality.
 - Make the landing pages more dynamic and interactive by implementing custom scripts.
-- Make a better responsive layout.
+- Redesign / Make a better responsive layout.
+- Develop another landing page about one of his other interests.
+
 
 ### Github Repository
 
