@@ -32,7 +32,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-.figure__caption:hover {
+/* .figure__caption:hover {
   color: #55f676;
   text-decoration: underline;
   text-underline-offset: 5px;
@@ -40,4 +40,4 @@
   font-weight: bold;
   transform: rotate(180deg) rotate(180deg) scale(1.2);
   text-shadow: 0 0 2px #000, 4px 4px 0 #fff;
-}
+} */

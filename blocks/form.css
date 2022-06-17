@@ -60,7 +60,6 @@
 .form__email-icon::before {
   content: "\2709";
   position: relative;
-  top: 5px;
   height: 100%;
   font-size: 50px;
   color: #fff;

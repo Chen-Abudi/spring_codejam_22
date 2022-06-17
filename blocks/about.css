@@ -18,10 +18,10 @@
   transition: all 0.3s ease-in-out;
 }
 
-.about__title:hover {
+/* .about__title:hover {
   color: #ff5831;
   text-shadow: 0 0 2px #000, 4px 4px 0 #55f676;
-}
+} */
 
 .about__content {
   font-family: "Inter", sans-serif;
@@ -42,6 +42,7 @@
 }
 
 .about__image {
+  display: block;
   width: 100%;
   max-width: 560px;
   max-height: 560px;

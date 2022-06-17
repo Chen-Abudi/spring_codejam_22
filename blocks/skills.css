@@ -1,4 +1,4 @@
-@keyframes shake {
+/* @keyframes shake {
   0% {
     transform: translate(0, 0) rotate(0deg);
   }
@@ -14,7 +14,7 @@
   100% {
     transform: translate(0, 0) rotate(0deg);
   }
-}
+} */
 
 .skills {
   background-color: #ffffff;
@@ -37,10 +37,10 @@
   padding: 0 0 45px;
 }
 
-.skills__title:hover {
+/* .skills__title:hover {
   animation: shake 0.4s ease-in-out 0s infinite;
   text-shadow: 0 0 2px #55f676, 4px 4px 0 #ff5831;
-}
+} */
 
 .skills__list {
   margin: 0;
@@ -56,7 +56,7 @@
   padding: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 999px) {
   .skills {
     padding: 35px 0;
   }
@@ -91,7 +91,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 424px) {
   .skills__list {
     gap: 26px;
     max-width: 320px;
